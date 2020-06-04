@@ -22,7 +22,18 @@
                     <td>{{nombre}}</td>
                     <td>{{nacionalidad}}</td>
                     <td>{{corriente}}</td>
-                    <td><img src="../images/{{pintura}}" class="i"></td>
+                    <td><img src="../images/Frida.jpg {{pintura}}" class="i"></td>
+                </tr>
+                {{/each}}
+            </tbody>
+            <tbody>
+                {{#each pintores}}
+                <tr class="text2">
+                    <td>{{_id}}</td>
+                    <td>{{nombre}}</td>
+                    <td>{{nacionalidad}}</td>
+                    <td>{{corriente}}</td>
+                    <td><img src="../images/David.jpeg{{pintura}}" class="i"></td>
                 </tr>
                 {{/each}}
             </tbody>
