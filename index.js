@@ -19,7 +19,7 @@ app.use('/', pintoresRouter);
 
 /*La conexion con MongoDB*/
 mongoose.Promise = global.Promise;
-const cadena = 'mongodb+srv://Maynez:123qwertyE@maynezgrecia-jfrk9.mongodb.net/curso?retryWrites=true&w=majority';
+const cadena = 'mongodb+srv://D_Balderrama:DanniFoxGamer@balderramasalgado-z3pfp.mongodb.net/curso?retryWrites=true&w=majority';
 mongoose.connect(cadena, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(()=>{
         console.log('Conexion establecida :))))');
