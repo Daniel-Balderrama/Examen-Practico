@@ -30,6 +30,21 @@ mongoose.connect(cadena, {useNewUrlParser: true, useUnifiedTopology: true})
     app.listen(PUERTO, ()=>{
         console.log('Escuchando el puerto...');
     });
+
+    { 
+    nombre:"David Alfaro",
+    nacionalidad:"Mexicana",
+    corriente:"Impresionismo",
+    pintura: "David 1"
+    
+    }
+    { 
+    nombre:"Frida Khalo",
+    nacionalidad:"Mexicana",
+    corriente:"Impresionismo",
+    pintura: "Frida.jpg"
+            
+    }
     
     //Jesus Daniel Balderrama Salgado
 
