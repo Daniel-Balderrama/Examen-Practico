@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 400%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    color: white;
+    text-align: center;
+    columns: 5px;
+}
